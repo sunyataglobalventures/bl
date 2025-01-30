@@ -51,7 +51,7 @@ def replace_placeholders(doc, placeholders):
 
 def create_bond_letter(data, output_folder, unique_id):
     # Load the bond template
-    template_path = "BOND.DOCX"
+    template_path = "BOND.docx"
     doc = Document(template_path)
 
     # Compute Joining Date (exactly 1 year after "Date")
